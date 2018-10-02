@@ -4,6 +4,6 @@ class Teacher < User
 
   def teach
     size = KNOWLEDGE.size
-    KNOWLEDGE[Random.rand(8)]
+    KNOWLEDGE[Random.rand(size)]
   end
 end
