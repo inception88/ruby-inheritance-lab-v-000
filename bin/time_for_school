@@ -25,4 +25,4 @@ ben.learn(more_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 
-puts "Ben just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+puts "Ben just learned this important knowledge: '#{ben.knowledge.first}' from Avi"
