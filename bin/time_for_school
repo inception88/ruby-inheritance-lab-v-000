@@ -28,6 +28,6 @@ ben.learn(more_knowledge)
 steve.learn(so_knowledge)
 ben.learn(mo_knowledge)
 
-puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+puts "Steve just learned this important knowledge: '#{steve.knowledge}' from Avi"
 
-puts "Ben just learned this important knowledge: '#{ben.knowledge.first}' from Avi"
+puts "Ben just learned this important knowledge: '#{ben.knowledge}' from Avi"
