@@ -20,9 +20,13 @@ jim = User.new
 
 some_knowledge = avi.teach 
 more_knowledge = avi.teach
+so_knowledge = avi.teach 
+mo_knowledge = avi.teach
 
 steve.learn(some_knowledge)
 ben.learn(more_knowledge)
+steve.learn(so_knowledge)
+ben.learn(mo_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 
